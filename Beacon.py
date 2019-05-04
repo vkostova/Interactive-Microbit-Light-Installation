@@ -5,7 +5,7 @@ import radio
 id = "1"
 
 # low power so the other receiver has to get close
-radio.config(power=0)
+radio.config(power=1)
 radio.on()
 
 # Setup the Neopixel strip on pin0 with a length of 24 LEDs
@@ -99,6 +99,7 @@ while True:
             sleep(pulse)
             np[i] = (0, 0, 0)               # set to black to clear pixel
             np.show()                       # display the lights
+            radio.send('2')                 # send message to receiver so they start blinking
 
             # Display the current pixel data on the Neopixel strip
         else:
