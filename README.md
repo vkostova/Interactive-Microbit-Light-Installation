@@ -6,7 +6,7 @@ A Light Installation that uses multiple BBC Microbits
 [Samantha Nullman](https://www.samanthanullman.com)
 
 **Materials needed:**\
-[BBC Microbit](https://microbit.org/resellers/)\
+[BBC Microbit](https://microbit.org/resellers/) (at least two)\
 [Pulse Sensor](https://pulsesensor.com/products/pulse-sensor-amped)\
 [NeoPixel Ring](https://www.adafruit.com/product/1586)\
 [RGB LED](https://wiki.keyestudio.com/index.php/Ks0032_keyestudio_RGB_LED_Module)
