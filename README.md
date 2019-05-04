@@ -22,6 +22,6 @@ The pulse sensor should now be reading a users pulse when it is being touched an
 
 **Instructions for the Receiver:**\
 Connect the RGB LED to the Microbit (see [receiver_schematic.png](https://github.com/vkostova/Microbit-Light-Installation/blob/master/receiver_schematic.png)).
-After the physical installation push the code [receiver.py](https://github.com/vkostova/Microbit-Light-Installation) onto the Microbit.
+After the physical installation push the code [receiver.py](https://github.com/vkostova/Microbit-Light-Installation/blob/master/Receiver.py) onto the Microbit.
 The light will now light up and show the distance to the beacon by changing its color.
 As many receiver lights can be installed as wanted.
