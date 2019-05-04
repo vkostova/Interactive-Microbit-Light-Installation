@@ -2,7 +2,7 @@
 A Light Installation that uses multiple BBC Microbits
 
 **Creators:**\
-[Veronika Kostova](http://veronikaikostova.com/)
+[Veronika Kostova](http://veronikaikostova.com/)\
 [Samanthat Nullman](https://www.samanthanullman.com)
 
 In order to make this light installation you need to set up one Microbit that functions as as the beacon and sends a signal on a specific radio strength. At least one other Microbit is needed that functions as the receiver and will show the distance to the beacon with an LED light.
