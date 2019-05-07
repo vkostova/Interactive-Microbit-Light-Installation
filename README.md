@@ -1,5 +1,5 @@
 # Interactive Microbit Light Installation
-A Light Installation that uses multiple BBC Microbits
+A Interactive Light Installation that uses multiple BBC Microbits
 
 **Creators:**\
 [Veronika Kostova](http://veronikaikostova.com/)\
