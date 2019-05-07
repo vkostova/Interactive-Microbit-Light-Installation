@@ -78,7 +78,7 @@ display.off()
 
 while True:
     radio.send(id)
-    # read signal from input in pin 3
+    # read signal from input in pin 2
     # print pulse and sample count from 1
     # display in plotter and REPL 
     # set LED to a random number from 0 - 24, in increments of 5
