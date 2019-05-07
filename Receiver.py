@@ -15,10 +15,9 @@ while True:
     if message:
         strength = message[1]+100
         displaystrength = (int((strength/5)+1))
-        display.show(str(displaystrength))
         sleep(20)
 # creates a color spectrum from red to blue
-        #full red
+        # full red
         if displaystrength == 10:
             set_rgb(1023, 0, 1023)
             sleep(20)
@@ -49,17 +48,9 @@ while True:
         if displaystrength == 1:
             set_rgb(400, 1023, 500)
             sleep(20)
-# if pulse sensor is pressed on beacon, the led will blink 3 times
+# if pulse sensor is pressed on beacon, the led will blink
     if incoming == '2':
         set_rgb(1023, 0, 1023)
         sleep(100)
         set_rgb(1023, 1023, 1023)
-        sleep(500)
-        set_rgb(1023, 0, 1023)
         sleep(100)
-        set_rgb(1023, 1023, 1023)
-        sleep(500)
-        set_rgb(1023, 0, 1023)
-        sleep(100)
-        set_rgb(1023, 1023, 1023)
-        sleep(500)
